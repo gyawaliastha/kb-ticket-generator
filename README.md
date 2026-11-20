@@ -23,7 +23,7 @@ Local Python workflow. Synthetic/anonymized tickets only. No live ticketing inte
 python -m venv venv && source venv/bin/activate
 pip install -r requirements.txt
 python -m pytest
-python -m kbgen.pipeline data/sample/tickets.csv
+PYTHONPATH=src python -m kbgen.pipeline data/sample/tickets.csv
 ```
 
 ## Branching
