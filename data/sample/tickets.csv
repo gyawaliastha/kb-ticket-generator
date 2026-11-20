@@ -1,0 +1,4 @@
+title,description,category,troubleshooting_notes,resolution
+VPN authentication failure,"User jane.doe@example.com cannot connect to gateway 10.20.30.40; error 'authentication failed'",network,"Checked account status; cleared saved credentials","Deleted the old VPN profile and re-imported the current profile; connection restored"
+Outlook keeps asking for password,Outlook prompts for credentials every few minutes,email,Recreated profile did not help,Cleared cached credentials in Credential Manager and signed in again
+Shared drive not accessible,User receives access denied on team folder,access,,
